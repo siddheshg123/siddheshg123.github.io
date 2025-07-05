@@ -1,76 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Siddhesh Gopanpallikar | Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Portfolio of Siddhesh G - Quantitative Researcher">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siddhesh Gopanpallikar - Quantitative Researcher specializing in algorithmic trading, machine learning, and portfolio optimization">
+    <meta name="keywords" content="quantitative finance, machine learning, algorithmic trading, portfolio optimization">
+    <meta name="author" content="Siddhesh Gopanpallikar">
+    <title>Siddhesh Gopanpallikar | Quantitative Researcher</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 </head>
 <body>
-  <header>
-    <h1>Siddhesh Gopanpallikar</h1>
-    <p>Quantitative Researcher</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Quantitative Researcher with expertise in cross-asset allocation, machine learning, and statistical arbitrage. Passionate about building robust trading strategies and financial models.</p>
-      <ul>
-        <li>Python, C++, R, Linux, Git, Docker</li>
-        <li>Machine Learning, Deep Learning, Options Pricing</li>
-        <li>Full-stack development</li>
-      </ul>
-    </section>
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="timeline">
-        <div>
-          <h3>QMS Capital Management</h3>
-          <span>Quantitative Researcher (2024–Present)</span>
-          <ul>
-            <li>Developed cross-asset allocation strategies using ML</li>
-            <li>Achieved 1.51 Sharpe ratio in statistical arbitrage</li>
-            <li>Mid-frequency trading with 5% monthly outperformance</li>
-          </ul>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="name">Siddhesh Gopanpallikar</h1>
+                <p class="title">Quantitative Researcher</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">Quantitative Finance Professional</h2>
+                    <p class="hero-description">
+                        Specialized in developing advanced cross-asset allocation strategies, machine learning models for asset pricing, 
+                        and statistical arbitrage systems. Currently working on regime learning techniques and optimization algorithms 
+                        at QMS Capital Management.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3.91</span>
+                            <span class="stat-label">GPA Georgia Tech</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1.51</span>
+                            <span class="stat-label">Best Sharpe Ratio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <h3>Skills Overview</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">R</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Machine Learning</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Quantitative Researcher</h3>
+                                <span class="job-company">QMS Capital Management</span>
+                                <span class="job-period">Jan 2024 - Present</span>
+                                <span class="job-location">Durham, NC</span>
+                            </div>
+                            <ul class="job-responsibilities">
+                                <li>Developed advanced cross-asset allocation strategy for emerging markets using regime learning techniques</li>
+                                <li>Leveraged machine learning algorithms for regime identification and probability estimation</li>
+                                <li>Implemented regime-switching models for smooth allocation transitions</li>
+                                <li>Optimized commodity allocations based on regime-specific performance metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Quantitative Research Intern</h3>
+                                <span class="job-company">QMS Capital Management</span>
+                                <span class="job-period">May 2023 - Aug 2023</span>
+                                <span class="job-location">Durham, NC</span>
+                            </div>
+                            <ul class="job-responsibilities">
+                                <li>Devised event-based strategy analyzing margin impacts on market factors</li>
+                                <li>Crafted ML models (Bagging, Boosting, Neural Networks) for asset pricing strategy</li>
+                                <li>Enhanced portfolio construction for maximum Sharpe ratio optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Quantitative Analyst</h3>
+                                <span class="job-company">Voltaire Capital</span>
+                                <span class="job-period">Jun 2021 - Aug 2022</span>
+                                <span class="job-location">Mumbai, India</span>
+                            </div>
+                            <ul class="job-responsibilities">
+                                <li>Constructed Mid-Frequency Futures portfolio achieving ~5% monthly outperformance vs NIFTY50</li>
+                                <li>Implemented Statistical Arbitrage strategy using PCA and OU Process (Sharpe ratio ~1.51)</li>
+                                <li>Automated Momentum Value Alpha Strategy and EMA-based discretionary portfolio</li>
+                                <li>Optimized existing strategies while maintaining risk tolerance parameters</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Software Engineer</h3>
+                                <span class="job-company">KPIT Technologies</span>
+                                <span class="job-period">Jul 2018 - Jun 2020</span>
+                                <span class="job-location">Bangalore, India & Munich, Germany</span>
+                            </div>
+                            <ul class="job-responsibilities">
+                                <li>Developed autonomous car driving stack including lane detection and path prediction</li>
+                                <li>Built simulation scenarios using C++ and Python for open-source CARLA platform</li>
+                                <li>Trained CNN models on German road regulations and sensor fusion systems</li>
+                                <li>Analyzed large datasets for road conditions and traffic density optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h3 class="degree">Master of Science in Quantitative and Computational Finance</h3>
+                            <span class="school">Georgia Institute of Technology, Scheller College of Business</span>
+                            <span class="period">Aug 2022 - Dec 2023</span>
+                        </div>
+                        <div class="education-details">
+                            <p class="gpa">GPA: 3.91/4.0</p>
+                            <p class="coursework"><strong>Key Coursework:</strong> Fixed Income, Derivatives, Stochastic Calculus, Time Series Analysis, Multivariate Data Analysis</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h3 class="degree">Bachelor of Technology in Electrical Engineering</h3>
+                            <span class="school">Indian Institute of Technology Dhanbad</span>
+                            <span class="period">Aug 2014 - May 2018</span>
+                        </div>
+                        <div class="education-details">
+                            <p class="gpa">GPA: 7.8/10.0</p>
+                            <p class="coursework"><strong>Key Coursework:</strong> Data Structures and Algorithms, Machine Learning, Computer Vision, Object Oriented Programming</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Option Pricing and Dynamic Delta Hedging</h3>
+                        <p class="project-description">
+                            Formulated option pricing model in C++ using Black-Scholes and Binomial Option Pricing models. 
+                            Created dynamic delta hedging strategy and compared P/L with no-hedge strategy.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Black-Scholes</span>
+                            <span class="tech-tag">Delta Hedging</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">Smart Beta, Fundamental and Alternative Investing</h3>
+                        <p class="project-description">
+                            Generated various fundamental and market variables weighted portfolios to beat market cap weighted portfolio. 
+                            Implemented strategy based on Fama-French and CAPM models.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Fama-French</span>
+                            <span class="tech-tag">CAPM</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">Event Studies and Sentiment Analysis</h3>
+                        <p class="project-description">
+                            Performed NLP analysis to understand cumulative abnormal returns around 8K filings. 
+                            Used FinBERT model for sentiment analysis of financial documents.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">FinBERT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>Interested in quantitative finance, algorithmic trading, or collaboration opportunities? Feel free to reach out.</p>
+
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:siddheshg1@gmail.com" class="contact-value">siddheshg1@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+14709294198" class="contact-value">+1 (470) 929-4198</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Atlanta, GA</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/siddheshg1/" target="_blank" class="contact-value">linkedin.com/in/siddheshg1</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Siddhesh Gopanpallikar. All rights reserved.</p>
         </div>
-        <div>
-          <h3>Voltaire Capital</h3>
-          <span>Quantitative Analyst (2022–2024)</span>
-          <ul>
-            <li>Alpha research and factor modeling</li>
-            <li>Smart beta and portfolio optimization</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Stock return prediction using ML algorithms</li>
-        <li>Statistical arbitrage strategies</li>
-        <li>Portfolio optimization tools</li>
-      </ul>
-      <p>See more on <a href="https://github.com/siddheshg123" target="_blank">GitHub</a>.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: siddheshg1@gmail.com</p>
-      <p>
-        <a href="https://www.linkedin.com/in/siddheshg1/" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/siddheshg123" target="_blank">GitHub</a>
-      </p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Siddhesh G</p>
-  </footer>
-  <script src="script.js"></script>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
